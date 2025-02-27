@@ -90,6 +90,7 @@ public class LoginTest extends Base{
 		System.out.println(profilePage.getNameText().getText());
 		Assert.assertTrue(profilePage.getPointText().isDisplayed(),"Point Tidak muncul");
 		System.out.println(profilePage.getPointText().getText());
+		
 	}
 
 	@AfterMethod(alwaysRun = true)
