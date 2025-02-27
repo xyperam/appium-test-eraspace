@@ -20,7 +20,7 @@ public class ProfilePage {
 	@AndroidFindBy(id="com.eraspace.app:id/tvName")
 	WebElement nameText;
 
-	@AndroidFindBy(id="com.eraspace.app:id/tvName")
+	@AndroidFindBy(id="com.eraspace.app:id/tvMyPoint")
 	WebElement pointText;
 	
 	public void closeTooltip() {

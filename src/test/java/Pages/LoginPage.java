@@ -28,14 +28,17 @@ WebElement btnLogin;
 
 @AndroidFindBy(id="com.eraspace.app.membership:id/tvError")
 WebElement errorMsg;
-public void inputEmail(){
-	inputEmailField.sendKeys("ilhamimaninuralam@gmail.com");
+public void inputEmail(String email){
+	inputEmailField.sendKeys(email);
 }
-public void inputPassword() {
-	inputPasswordField.sendKeys("nullPoint5!");
+public void inputPassword(String password) {
+	inputPasswordField.sendKeys(password);
 }
 public void clickBtnLogin() {
 	btnLogin.click();
+}
+public WebElement errorLoginMsg() {
+	return errorMsg;
 }
 
 
